@@ -1,0 +1,26 @@
+Lupuleasa Marian-Paul
+
+Problema JavaScript - Vue.js 
+
+Am rezolvat punctele A, B si C atat in javascript, cat si in vue.js
+
+A. 
+    Pentru fiecare valoare, se compara aceasta cu maximul clasei respective din array-ul classes (initial valoarile din classes sunt 0)
+    Daca valoarea citita este mai mare, se inlocuieste in classes
+    Se parcurge array-ul classes si se elimina toate valorile de 0, iar apoi se afiseaza array-ul classes
+
+B.
+    Nu am reusit sa fac doar un textbox in care sa citesc array-ul de valori, asa ca am facut un textbox pentru fiecare valoare
+    Se citesc de la tastatura valorile, prin completarea textbox-urilor
+    Se apasa butonul "Calculeaza" care apeleaza functia calculate(), aceasta afisand maximele sub forma array-ului classes
+
+C. 
+    Pentru fiecare valoare din classes, am calculat restul modulo 26, iar acest rest l-am adunat la valoarea 65 (codul literei A) pentru a popula
+    array-ul modulo. Ex: daca restul operatiei modulo 26 este 0, atunci se afiseaza litera A
+    Se apasa butonul "Calculeaza" care apeleaza functia calculate(), aceasta afisand litera corespunzatoare fiecarei clase sub forma array-ului modulo
+
+Am rulat aplicatia Vue.js astfel: 
+    npm run dev
+    am accesat link-ul: http://localhost:3000/
+    am completat datele 
+    am apasat butonul Calculate
